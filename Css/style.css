@@ -13,68 +13,115 @@
   
 }
 
-.card
+.header
 {
-    width: 70%;
+    width: 70% ;
     margin: 0 auto;
     position: relative;
     top: 30%;
+    background: #fff;
 }
-.card-body 
+
+.header nav
 {
-    
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+    background-color: rgb(46, 5, 5);
+}
+
+.content
+{
+    width: 80%;
     margin: 0 auto;
-}
-
-
-.form-inline input
-{
-   
-  text-align: center;
-}
-
-.buttom
-{
+    display: flex;
+    justify-content: space-between;
     margin-top: 20px;
 }
 
-.buttom button
+.content .input 
 {
-    width:55%;
-    padding: 7px;
+   width: 45%;
+}
+
+.content .input input
+{
+    width: 100%;
+    text-align: center;
+    padding: 8px;
+    border: 1px solid lightgrey;
+}
+
+.plus span
+{
+    font-size: 20px;
+    
+}
+
+.btn_1
+{
+    width: 25%;
+    margin-left: 37%;
+    margin-top: 15px;
+    padding: 8px;
+    background: green;
+    color: #fff;
     border: none;
 }
 
-#loveper
+.loveper
 {
-    width: 40%;
-    margin: 0 auto;
+    width: 100%;
+    text-align: center; 
+    margin-top: 15px;
+}
+
+.header .loveper input
+{
     text-align: center;
+    padding: 8px;
+   
 }
 
-/* add media query */
-
-@media only screen and (max-width:700px) {
-    .card-body
-    {
-        width: 50%;
-    }
-    .margin
-    {
-        margin-left: 37%;
-    }
-
-   #loveper
-    {
-        width: 80%;
-       
-    }
+.header footer
+{
+    
+    text-align: center;
+    background: lightgrey;
+    padding: 10px;
+    margin-top: 15px;
+   
 }
 
-@media only screen and (max-width:550px){
-    #loveper
+/* add media w */
+
+@media only screen and (max-width:400px){
+    .content
     {
-        width: 100%;
-       
+       flex-direction: column;
+       align-items: center;
     }
+
+    .content .input 
+{
+   width: 80%;
 }
+
+.loveper
+{
+    width: 30%;
+   margin-left: 17%;
+}
+    
+}
+
+@media only screen and (max-width:346px)
+{  
+    .loveper{
+        width: 20%;
+        margin-left: 15%;
+    }
+   
+}
+
+/* the end */

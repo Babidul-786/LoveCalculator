@@ -5,8 +5,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-
     <link rel="stylesheet" href="./Css/style.css">
 
     <title>Love project</title>
@@ -16,48 +14,42 @@
 
     <div class="banner">
 
-        <div class="card text-center">
-            <div class="card-header bg-danger text-white">
-                LOVE CALCULATOR
-            </div>
+        <div class="header">
+            <nav>
+                <h2>LOVE CALCULATOR</h2>
+            </nav>
 
-            <div class="card-body">
+            <div class="content">
 
-                <form class="form-inline ">
-
-                    <div class="form-group">
-                        <input type="text" name="" placeholder="Your Name" class="form-control" id="Required">
-                    </div>
-
-                    <div class="margin"><span class="pl-4 pr-4 "> + </span></div>
-
-                    <div class="form-group">
-                        <input type="text" name="" placeholder="Love Name" class="form-control" id="nRequired">
-                    </div>
-
-                </form>
-
-                <div class="buttom">
-                    <button class="bg-success text-white" onclick="checkloveper()">Click</button>
+                <div class="input">
+                    <input type="text" placeholder="Your Name" id="Required">
                 </div>
-                <br>
 
-                <div class="percentace">
-                    <input type="text" id="loveper" class="form-control" placeholder="Love Percentage">
+                <div class="plus"><span>+</span></div>
+
+                <div class="input">
+                    <input type="text" placeholder="Love Name" id="nRequired">
                 </div>
 
             </div>
-            <div class="card-footer text-dark">God Bless Your Relationship</div>
 
+
+            <button class="btn_1" onclick="checkloveper()">Click</button>
+
+          <div class="loveper">
+              <input type="text" id="loveper" placeholder="Love Percentage">
+          </div>
+
+            <footer>
+                <h3>God Bless Your Relationship</h3>
+            </footer>
         </div>
 
     </div>
 
 
 
-
-    <script src="./js/script.js"></script>
-
+  <script src="./js/script.js"></script>
 
 </body>
 
