@@ -103,25 +103,25 @@
     }
 
     .content .input 
-{
-   width: 80%;
-}
-
-.loveper
-{
-    width: 30%;
-   margin-left: 17%;
-}
-    
-}
-
-@media only screen and (max-width:346px)
-{  
-    .loveper{
-        width: 20%;
-        margin-left: 15%;
+    {
+    width: 80%;
     }
-   
-}
 
-/* the end */
+    .loveper
+    {
+        width: 30%;
+    margin-left: 17%;
+    }
+        
+    }
+
+    @media only screen and (max-width:346px)
+    {  
+        .loveper{
+            width: 20%;
+            margin-left: 15%;
+        }
+    
+    }
+
+    /* the end */
