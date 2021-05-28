@@ -96,6 +96,12 @@
 /* add media w */
 
 @media only screen and (max-width:400px){
+    .header
+{
+    width: 90% ;
+    top: 26%;
+}
+
     .content
     {
        flex-direction: column;
@@ -104,22 +110,21 @@
 
     .content .input 
     {
-    width: 80%;
+    width: 95%;
     }
 
     .loveper
     {
-        width: 30%;
-    margin-left: 17%;
+       width: 25%;
+       margin-left: 19%;
     }
         
     }
 
-    @media only screen and (max-width:346px)
+    @media only screen and (max-width:326px)
     {  
         .loveper{
-            width: 20%;
-            margin-left: 15%;
+            margin-left: 13%;
         }
     
     }
